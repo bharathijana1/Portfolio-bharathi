@@ -1,6 +1,6 @@
 export default [
     {
-        img: "../src/Components/img/formvalidation.png",
+        img: "../Components/img/formvalidation.png",
         title: "Form Validation",
         button: "Go To netlify",
         alt: "Form validation",
