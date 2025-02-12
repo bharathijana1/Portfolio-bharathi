@@ -14,12 +14,12 @@ const Skills = () => {
 
     const frontend = [
         {
-            img: "../src/Components/img/html-5.png",
+            img: "../Components/img/html-5.png",
             text: "HTML",
             alt: "html"
         },
         {
-            img: "../src/Components/img/css-3.png",
+            img: "../Components/img/css-3.png",
             text: "CSS",
             alt: "css"
         },
