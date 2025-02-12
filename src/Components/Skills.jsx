@@ -3,6 +3,15 @@ import Headings from './Headings';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import HtmlImg from '../Components/img/html-5.png';
+import CssImg from '../Components/img/css-3.png';
+import BootstrapImg from '../Components/img/bootstrap.png';
+import TailwindImg from '../Components/img/Tailwind.png';
+import JavascriptImg from '../Components/img/js.png';
+import ReactImg from '../Components/img/reactjs.png';
+import MongodbImg from '../Components/img/mongodb.png';
+import FigmaImg from '../Components/img/figma.png';
+import MsofficeImg from '../Components/img/ms-office.png';
+import Github from '../Components/img/github.png';
 
 const Skills = () => {
     useEffect(() => {
@@ -20,45 +29,50 @@ const Skills = () => {
             alt: "html"
         },
         {
-            img: "../Components/img/css-3.png",
+            img: CssImg,
             text: "CSS",
             alt: "css"
         },
         {
-            img: "../src/Components/img/bootstrap.png",
+            img: BootstrapImg,
             text: "Bootstrap",
             alt: "bottstrap"
         },
         {
-            img: "../src/Components/img/Tailwind.png",
+            img: TailwindImg,
             text: "Tailwind",
             alt: "tailwind"
         },
         {
-            img: "../src/Components/img/js.png",
+            img: JavascriptImg,
             text: "Javascript",
             alt: "js"
         },
         {
-            img: "../src/Components/img/reactjs.png",
+            img: ReactImg,
             text: "React Js",
             alt: "reactjs"
+        }
+        {
+            img: Github,
+            text: "Github",
+            alt: "Github"
         }
 
     ]
     const database = [
         {
-            img: "../src/Components/img/mongodb.png",
+            img: MongodbImg,
             text: "MongoDB",
             alt: "mongodb"
         },
         {
-            img: "../src/Components/img/figma.png",
+            img: FigmaImg,
             text: "Figma",
             alt: "figma"
         },
         {
-            img: "../src/Components/img/ms-office.png",
+            img: MsofficeImg,
             text: "MS Office",
             alt: "MS Office"
         },
