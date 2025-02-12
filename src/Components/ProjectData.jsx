@@ -146,9 +146,9 @@ export default [
     {
         img: DigitalclockImg,
         title: "Digital clock",
-        button: "View Demo",
+        button: "View Code",
         alt: "Digital clock",
-        ahref: "https://digitclk.netlify.app/"
+        ahref: "https://github.com/bharathijana1/Digital-Clock-REACTJS"
     },
     {
         img: PhotozoneImg,
