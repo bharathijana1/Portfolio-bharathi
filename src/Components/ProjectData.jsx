@@ -1,6 +1,7 @@
+import FormvalidationImg from '../Components/img/formvalidation.png';
 export default [
     {
-        img: "../Components/img/formvalidation.png",
+        img: FormvalidationImg,
         title: "Form Validation",
         button: "Go To netlify",
         alt: "Form validation",
