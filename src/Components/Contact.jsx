@@ -32,7 +32,7 @@ const Contact = () => {
             
             </div>
             <div className='p-3 md:p-2 w-2/5 flex justify-center items-center '>
-                <img src={contactimage} alt="home" width="500px" height="500px"
+                <img src="/contact.jpg" alt="home" width="500px" height="500px"
                   className='hover:shadow-md hover:shadow-fuchsia-800' />
             </div>
             
