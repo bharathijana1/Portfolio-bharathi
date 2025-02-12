@@ -85,7 +85,7 @@ const Skills = () => {
         <div className='grid grid-cols-2 md:grid-cols-6  p-2 md:flex md:flex-row md:m-7 flex-wrap justify-center items-center md:gap-8' data-aos="fade-down">
             {
                 frontend.map((frontend, index) => (
-                    <div className='flex flex-col justify-center items-center pt-5 p-4 hover:shadow-md hover:shadow-fuchsia-800'>
+                    <div className='flex flex-col justify-center items-center pt-5 p-4 hover:shadow-md hover:shadow-fuchsia-800 '>
                     <img key={index} src={frontend.img} alt={frontend.alt} width="100px" height="100px" />
                     <h1 className='p-5 text-lg font-medium'>{frontend.text}</h1>
                     </div>

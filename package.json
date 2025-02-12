@@ -17,6 +17,7 @@
     "@mui/material": "^6.1.6",
     "aos": "^2.3.4",
     "docxtemplater": "^3.52.0",
+    "emailjs-com": "^3.2.0",
     "install": "^0.13.0",
     "npm": "^10.9.0",
     "pizzip": "^3.1.7",

@@ -24,16 +24,27 @@ const PortfolioHome = () => {
             <h1 className='text-2xl md:text-3xl text-center md:text-start p-1'>Hi I am Bharathi, Nice to meet you</h1>
             <h1 className='text-xl md:text-2xl text-center md:text-start p-1'>Front End Developer</h1>
             <h1 className='text-lg text-center md:text-start p-1'>I completed Bachelor of Computer Application</h1>
-            <h1 className='text-lg text-center md:text-start p-1'>Expert in responsive & interactive website. Expert in HTML5, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACT JS.</h1>
+            <h1 className='text-lg text-center md:text-start p-1'>Expert in responsive, dynamic & interactive website. Expert in HTML5, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACT JS.</h1>
             <div className='flex justify-center mt-5'>
             <button className='border bg-fuchsia-900 p-2 px-8 py-3 m-2 text-lg font-medium text-white' 
             style={{
             background: 'rgb(52,124,152)',
             background: 'radial-gradient(circle, rgba(127,51,171,1) 0%, rgba(80,23,112,1) 69%, rgba(29,0,45,1) 100%)',
           }}>
+            
 
-          <a href="./Bharathi_ResumeC.pdf" download target='_blank'>Download CV</a>
+          <a href="./Bharathi_ResumeC.pdf" download target='_blank' className='uppercase'>Download CV</a>
        </button>
+       <Link to='projects'>
+       <button className='border bg-fuchsia-900 p-2 px-8 py-3 m-2 text-lg font-medium text-white' 
+            style={{
+            background: 'rgb(52,124,152)',
+            background: 'radial-gradient(circle, rgba(127,51,171,1) 0%, rgba(80,23,112,1) 69%, rgba(29,0,45,1) 100%)',
+          }}>
+            <h1 className='uppercase'>Projects</h1> 
+       </button>
+       </Link>
+       
             </div>
             
             </div>
