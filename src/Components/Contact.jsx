@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Headings from './Headings';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import contactimg from '../src/Components/img/contactme.jpg';
 
 const Contact = () => {
   useEffect(() => {
@@ -30,7 +31,7 @@ const Contact = () => {
             
             </div>
             <div className='p-3 md:p-2 w-2/5 flex justify-center items-center '>
-                <img src="../src/Components/img/contactme.jpg" alt="home" width="500px" height="500px"
+                <img src={contactimg} alt="home" width="500px" height="500px"
                   className='hover:shadow-md hover:shadow-fuchsia-800' />
             </div>
             
