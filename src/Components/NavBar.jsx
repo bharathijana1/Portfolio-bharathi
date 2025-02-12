@@ -15,7 +15,9 @@ const NavBar = () => {
 
   return (
     <div className='flex justify-between p-3 bg-black text-white'>
+      <Link to="/">
       <div className='text-2xl md:text-3xl font-bold tracking-wide flex justify-center items-center'>Bharathi</div>
+      </Link>
 
       {/* Hamburger Icon for Mobile (Hidden on md and larger screens) */}
       <div className='lg:hidden flex items-center'>
