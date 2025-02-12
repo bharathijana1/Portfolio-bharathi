@@ -52,7 +52,7 @@ const Skills = () => {
             img: ReactImg,
             text: "React Js",
             alt: "reactjs"
-        }
+        },
         {
             img: GithubImg,
             text: "Github",
