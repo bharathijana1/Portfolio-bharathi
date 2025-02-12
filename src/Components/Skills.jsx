@@ -11,7 +11,7 @@ import ReactImg from '../Components/img/reactjs.png';
 import MongodbImg from '../Components/img/mongodb.png';
 import FigmaImg from '../Components/img/figma.png';
 import MsofficeImg from '../Components/img/ms-office.png';
-import Github from '../Components/img/github.png';
+import GithubImg from '../Components/img/github.png';
 
 const Skills = () => {
     useEffect(() => {
@@ -54,7 +54,7 @@ const Skills = () => {
             alt: "reactjs"
         }
         {
-            img: Github,
+            img: GithubImg,
             text: "Github",
             alt: "Github"
         }
