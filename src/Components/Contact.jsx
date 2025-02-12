@@ -3,6 +3,7 @@ import Headings from './Headings';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import contactimg from '../src/Components/img/contactme.jpg';
+import contactimage from '../assets/contact.jpg'
 
 const Contact = () => {
   useEffect(() => {
