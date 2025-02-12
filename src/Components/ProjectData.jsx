@@ -106,7 +106,7 @@ export default [
         title: "Quizgame",
         button: "Go To Github",
         alt: "Quizgame",
-        ahref: "https://quisgames.netlify.app/"
+        ahref: "https://github.com/bharathijana1/QuizGame-REACTJS"
     },
     {
         img: StopwatchImg,
@@ -120,7 +120,7 @@ export default [
         title: "Weather app",
         button: "Go To Github",
         alt: "Weather app",
-        ahref: "https://weathercheckweb.netlify.app/"
+        ahref: "https://github.com/bharathijana1/WeatherApp-REACTJS"
     },
     {
         img: StudioImg,
