@@ -27,63 +27,63 @@ export default [
     {
         img: FormvalidationImg,
         title: "Form Validation",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "Form validation",
         ahref: "https://formvalide.netlify.app/"
     },
     {
         img: LearnandgrowImg,
         title: "Learn And Grow",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "Learn And Grow",
         ahref: "https://learn-and-grow.netlify.app/"
     },
     {
         img: LibraryManagementsystemImg,
         title: "Library Managment system",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "Library Managment system",
         ahref: "https://librarymanagementsys.netlify.app/"
     },
     {
         img: FreshcartImg,
         title: "FreshCart E-Commerce",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "FreshCart",
         ahref: "https://e-commerce-freshcart-website.netlify.app"
     },
     {
         img: AdviserappImg,
         title: "Adviser APP",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "Adviser APP",
         ahref: "https://adviser-application.netlify.app"
     },
     {
         img: GenerateqrcodeImg,
         title: "Generate QR Code",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "Generate QR Code",
         ahref: "https://generate-qr-code-for-website.netlify.app"
     },
     {
         img: WeatherappImg,
         title: "Weather API App",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "Weather API App",
         ahref: "https://weather-api-app-proj.netlify.app"
     },
     {
         img: BmicalculatorImg,
         title: "BMI Calculator",
-        button: "Go To Github",
+        button: "Go To Netlify",
         alt: "BMI calulator",
-        ahref: "https://github.com/bharathijana1/BIM-Calculator-REACT"
+        ahref: "https://bim-calculator-app.netlify.app/"
     },
     {
         img: FoodcourtImg,
         title: "Foodcourt",
-        button: "Go To netlify",
+        button: "Go To Netlify",
         alt: "Foodcourtr",
         ahref: "https://food-court-web.netlify.app/"
     },
