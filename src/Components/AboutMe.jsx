@@ -2,7 +2,7 @@ import React, { useEffect} from 'react'
 import Headings from './Headings';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import AboutMeImg from '../Components/img/email.png';
+import AboutMeImg from '../Components/img/about.png';
 import GithubImg from '../Components/img/github.png';
 import WhatsappImg from '../Components/img/whatsapp.png';
 import EmailImg from '../Components/img/email.png';
