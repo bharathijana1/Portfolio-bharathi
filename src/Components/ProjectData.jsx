@@ -2,7 +2,7 @@ import FormvalidationImg from '../Components/img/formvalidation.png';
 import LearnandgrowImg from '../Components/img/learnandgrow.png';
 import LibraryManagementsystemImg from '../Components/img/librarymanagmentsysterm.png';
 import FreshcartImg from '../Components/img/freshcart.png';
-import Adviserapp Img from '../Components/img/adviseapp.png';
+import AdviserappImg from '../Components/img/adviseapp.png';
 import GenerateqrcodeImg from '../Components/img/qrcode.png';
 import WeatherappImg from '../Components/img/weather-api-app.png';
 import BmicalculatorImg from '../Components/img/bmicalculator.png';
@@ -52,7 +52,7 @@ export default [
         ahref: "https://e-commerce-freshcart-website.netlify.app"
     },
     {
-        img: Adviserapp,
+        img: AdviserappImg,
         title: "Adviser APP",
         button: "Go To netlify",
         alt: "Adviser APP",
