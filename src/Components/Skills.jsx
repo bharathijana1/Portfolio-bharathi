@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Headings from './Headings';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import HtmlImg from '../Components/img/html-5.png';
 
 const Skills = () => {
     useEffect(() => {
@@ -14,7 +15,7 @@ const Skills = () => {
 
     const frontend = [
         {
-            img: "../Components/img/html-5.png",
+            img: HtmlImg,
             text: "HTML",
             alt: "html"
         },
