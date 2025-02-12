@@ -15,7 +15,8 @@ const Projects = ({ projects }) => {
   return (
     <div>
       <Headings portfolioheading="Projects" />
-      <h2 className='text-lg text-center p-1 '>Here are some projects I've worked on recently</h2>
+{/*       <h2 className='text-lg text-center p-1 '>Here are some projects I've worked on recently</h2> */}
+      <h2 className='text-lg text-center p-1 '>Check out of some of my works</h2>
       <div className="grid grid-cols-2 content-center justify-items-center p-1 md:flex flex-wrap md:flex-row justify-around items-stretch mx-auto gap-1 md:gap-4 lg:mx-5 py-2 lg:py-5"  data-aos="fade-down">
         {projects.map((project, index) => (
           <div 
