@@ -28,7 +28,7 @@ const ProjectsMain = () => {
   };
 
   return (
-    <div className='border border-black m-2 shadow-lg shadow-gray-600 py-10 '>
+    <div className='border border-black m-2 md:m-6 shadow-lg shadow-gray-600 py-10 md:py-28 '>
       <div className='flex justify-center items-center'>
         <Projects projects={currentImages} />
 

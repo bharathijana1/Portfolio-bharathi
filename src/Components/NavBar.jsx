@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
-import { HiMenu } from 'react-icons/hi'; // Hamburger icon from react-icons
+import { HiMenu } from 'react-icons/hi';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className='flex justify-between p-3 bg-black text-white'>
+    <div className='fixed top-0 left-0 right-0 z-10 flex justify-between p-3 bg-black text-white'>
       <Link to="/">
       <div className='text-2xl md:text-3xl font-bold tracking-wide flex justify-center items-center'>Bharathi</div>
       </Link>

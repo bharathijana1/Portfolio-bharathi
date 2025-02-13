@@ -2,7 +2,7 @@ import React, { useEffect} from 'react'
 import Headings from './Headings';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import AboutMeImg from '../Components/img/about.png';
+import AboutMeImg from '../Components/img/whatido.png';
 import GithubImg from '../Components/img/github.png';
 import WhatsappImg from '../Components/img/whatsapp.png';
 import EmailImg from '../Components/img/email.png';
@@ -29,24 +29,22 @@ const AboutMe = () => {
         <div class="max-w-3xl mx-auto p-2" data-aos="fade-down">
         
         <p class="text-lg text-black">
-            Hi! I'm Bharathi, a passionate Front-End Developer with a strong focus on building interactive and responsive websites. 
-            With a deep understanding of HTML5, CSS3, and JavaScript, I specialize in creating seamless user experiences and engaging web interfaces.
+        Hi! I'm Bharathi, a passionate Front-End Developer with a strong focus on building interactive, 
+        responsive, and dynamic websites that are user-friendly and visually engaging. I specialize in 
+        creating seamless user experiences and engaging web interfaces using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong> and <strong>React JS</strong>.
         </p>
         <p class="text-lg text-black my-4">
-            I have hands-on experience working with <strong>React</strong>, a powerful JavaScript library, to build dynamic and high-performing web applications. 
-            I also use <strong>Material UI</strong> for designing clean and modern user interfaces, as well as <strong>Tailwind CSS</strong> and <strong>Bootstrap</strong> 
-            to ensure responsiveness and flexibility in all my projects.
-        </p>
-        {/* <p class="text-lg text-gray-800 mt-4">
-            Whether it's coding from scratch or building on existing frameworks, I thrive in creating beautiful, functional, and user-friendly websites. 
-            My goal is to continuously learn and leverage the best tools and technologies to provide optimal solutions for users and clients alike.
-        </p> */}
-        
-        <div className='max-w-sm mx-auto bg-white shadow-black shadow-lg border rounded-lg overflow-hidden'>
-        <div className='text-center p-5'>
-            <img src={FrontendImg} alt="Front end" className="w-64 h-auto mx-auto" />
-            <h1 className="text-2xl font-semibold mt-4">Web Development</h1>
-            <h1 className="text-lg mt-2 text-black">Specializing in creating captivating and user-friendly websites that blend aesthetics with functionality</h1>
+        I have hands-on experience working with <strong>React</strong> to build dynamic and high-performing web applications, 
+        and I use <strong>Tailwind CSS</strong> and <strong>Bootstrap</strong> to ensure responsiveness and flexibility in all my projects.
+        </p>    
+        <div className='m-6 lg:m-2 bg-white shadow-black shadow-lg border rounded-lg overflow-hidden '>
+        <div className='text-center md:text-left p-5 md:flex w-full'>
+            <img src={FrontendImg} alt="Front end" className="w-64 md:w-[150px] h-auto mx-auto" />
+            <div>
+            <h1 className="text-2xl font-semibold mt-4 md:ps-5">Web Development</h1>
+            <h1 className="text-lg mt-2 text-black md:ps-5">Specializing in creating captivating and user-friendly websites that blend aesthetics with functionality</h1>
+            </div>
+            
         </div>
         </div>
         <div className='flex justify-center gap-4 pt-6'>

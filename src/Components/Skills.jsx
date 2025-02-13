@@ -52,11 +52,6 @@ const Skills = () => {
             img: ReactImg,
             text: "React Js",
             alt: "reactjs"
-        },
-        {
-            img: GithubImg,
-            text: "Github",
-            alt: "Github"
         }
 
     ]
@@ -76,10 +71,15 @@ const Skills = () => {
             text: "MS Office",
             alt: "MS Office"
         },
+        {
+            img: GithubImg,
+            text: "Github",
+            alt: "Github"
+        },
     ]
 
   return (
-    <div className='border border-black m-2 md:m-6 shadow-lg shadow-gray-600 '>
+    <div className='border border-black m-2 md:m-6 shadow-lg shadow-gray-600 py-10 md:py-28 '>
         <Headings portfolioheading = "Skills" />
         <h1 className='text-center pb-3 text-2xl font-bold'>Front-End</h1>
         <div className='grid grid-cols-2 md:grid-cols-6  p-2 md:flex md:flex-row md:m-7 flex-wrap justify-center items-center md:gap-8' data-aos="fade-down">

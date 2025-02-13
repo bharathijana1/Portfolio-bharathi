@@ -20,11 +20,11 @@ const PortfolioHome = () => {
   return (
     <div>
         <div className='flex flex-col-reverse md:flex-row lg:flex-row justify-around items-center mx-auto lg:mx-5 lg:py-5 h-screen'>
-            <div className=' p-1 md:p-3 m-1 flex justify-start flex-col' data-aos="fade-down">
-            <h1 className='text-2xl md:text-3xl text-center md:text-start p-1'>Hi I am Bharathi, Nice to meet you</h1>
-            <h1 className='text-xl md:text-2xl text-center md:text-start p-1'>Front End Developer</h1>
-            <h1 className='text-lg text-center md:text-start p-1'>I completed Bachelor of Computer Application</h1>
-            <h1 className='text-lg text-center md:text-start p-1'>Expert in responsive, dynamic & interactive website. Expert in HTML5, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACT JS.</h1>
+            <div className=' p-1 md:p-3 m-1 flex justify-start flex-col w-full xl:w-1/2' data-aos="fade-down">
+            <h1 className='text-3xl md:text-4xl text-center md:text-start p-1'>Hello</h1>
+            <h1 className="text-center md:text-start p-1 font-bold text-3xl md:text-4xl">I'm <span className='text-fuchsia-900 font-bold'>Bharathi</span></h1>
+            <h1 className='text-3xl md:text-4xl font-bold text-center md:text-start p-1'>Front End Developer</h1>
+            <h1 className='text-xl text-center md:text-start p-1'>Expert in responsive, dynamic & interactive website using HTML5, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACT JS. I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites.</h1>
             <div className='flex justify-center mt-5'>
             <button className='border bg-fuchsia-900 p-2 px-8 py-3 m-2 text-lg font-medium text-white' 
             style={{
