@@ -33,7 +33,7 @@ const PortfolioHome = () => {
           }}>
             
 
-          <a href="./Bharathi_ResumeC.pdf" download target='_blank' className='uppercase'>Download CV</a>
+          <a href="./Bharathij_Resume.pdf" download target='_blank' className='uppercase'>Download CV</a>
        </button>
        <Link to='projects'>
        <button className='border bg-fuchsia-900 p-2 px-8 py-3 m-2 text-lg font-medium text-white' 
