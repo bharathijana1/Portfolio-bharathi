@@ -32,8 +32,7 @@ const PortfolioHome = () => {
             background: 'radial-gradient(circle, rgba(127,51,171,1) 0%, rgba(80,23,112,1) 69%, rgba(29,0,45,1) 100%)',
           }}>
             
-
-          <a href="./Bharathij_Resume.pdf" download target='_blank' className='uppercase'>Download CV</a>
+        <a href="./Bharathij_Resume.pdf" download target='_blank' className='uppercase' >Download CV</a>
        </button>
        <Link to='projects'>
        <button className='border bg-fuchsia-900 p-2 px-8 py-3 m-2 text-lg font-medium text-white' 
