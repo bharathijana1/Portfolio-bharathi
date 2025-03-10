@@ -83,7 +83,7 @@ const NavBar = () => {
         background: 'rgb(52,124,152)',
         background: 'radial-gradient(circle, rgba(127,51,171,1) 0%, rgba(80,23,112,1) 69%, rgba(29,0,45,1) 100%)',
       }}>
-        <a href="./Bharathi_ResumeC.pdf" download target='_blank'>Download CV</a>
+        <a href="./Bharathij_Resume.pdf" download target='_blank'>Download CV</a>
       </button>
       </div>
 
@@ -114,7 +114,7 @@ const NavBar = () => {
         background: 'rgb(52,124,152)',
         background: 'radial-gradient(circle, rgba(127,51,171,1) 0%, rgba(80,23,112,1) 69%, rgba(29,0,45,1) 100%)',
       }}>
-      <a href="./Bharathi_ResumeC.pdf" download target='_blank'>Download CV</a>
+      <a href="./Bharathij_Resume.pdf" download target='_blank'>Download CV</a>
     </button>
   </div>
 )}
