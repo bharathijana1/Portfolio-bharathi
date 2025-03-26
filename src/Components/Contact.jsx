@@ -120,8 +120,8 @@ const Contact = () => {
         <h1 className='text-lg md:text-xl text-center  p-1 mb-4'>
             If you want to discuss more in details, please contact me
           </h1>
-          <a href="mailto:bharathi.jana01@gmail.com" className="curser-pointer text-lg md:text-xl p-3">
-            <span className='font-semibold'>Email: </span><strong className='hover:underline'>bharathi.jana01@gmail.com</strong>
+          <a href="mailto:bharathi.janarthanan2002@gmail.com" className="curser-pointer text-lg md:text-xl p-3">
+            <span className='font-semibold'>Email: </span><strong className='hover:underline'>bharathi.janarthanan2002@gmail.com</strong>
           </a>
           <a href="tel:+6383765538" className="curser-pointer text-lg md:text-xl p-3">
             <span className='font-semibold' >Mobile No: </span> <strong className='hover:underline'>6383765538</strong>
