@@ -67,11 +67,6 @@ const Skills = () => {
             alt: "figma"
         },
         {
-            img: MsofficeImg,
-            text: "MS Office",
-            alt: "MS Office"
-        },
-        {
             img: GithubImg,
             text: "Github",
             alt: "Github"
@@ -96,7 +91,7 @@ const Skills = () => {
         </div>
         
         <h1 className='text-center pb-10 text-2xl font-bold'>Database & UI/UX Design & Others</h1>
-        <div className='flex flex-row justify-center items-center gap-10  m-7'>
+        <div className='grid grid-cols-2 md:grid-cols-6  p-2 md:flex md:flex-row md:m-7 flex-wrap justify-center items-center md:gap-8'>
             {
                 database.map((database, index) => (
                     <div className='flex flex-col justify-center items-center pt-5 p-4 hover:shadow-md hover:shadow-fuchsia-800 ' data-aos="fade-down">
