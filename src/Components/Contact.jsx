@@ -68,7 +68,7 @@ const Contact = () => {
           
 
           {/* Contact Form */}
-          <div className='mx-auto w-full xl:w-3/4 border shadow-md shadow-fuchsia-800 p-5'>
+          <div className='w-3/2 md:w-full mx-auto border shadow-md shadow-fuchsia-800 p-5 '>
             <h1 className='text-lg md:text-xl text-center pt-8 p-5 font-medium'>
             Submit the form below to get in touch with me
             </h1>
@@ -116,18 +116,22 @@ const Contact = () => {
               
             </form>
           </div>
-          <div className='flex flex-col justify-center items-center pt-5 mt-10'>
+          {/* <div className='w-3/4 md:w-full flex flex-col border-2 border-yellow-800 justify-center items-center pt-5 mt-10'>
         <h1 className='text-lg md:text-xl text-center  p-1 mb-4'>
             If you want to discuss more in details, please contact me
           </h1>
+          <div className='' >
           <a href="mailto:bharathi.janarthanan2002@gmail.com" className="curser-pointer text-lg md:text-xl p-3">
             <span className='font-semibold'>Email: </span><strong className='hover:underline'>bharathi.janarthanan2002@gmail.com</strong>
           </a>
           <a href="tel:+6383765538" className="curser-pointer text-lg md:text-xl p-3">
             <span className='font-semibold' >Mobile No: </span> <strong className='hover:underline'>6383765538</strong>
           </a>
+          </div>
 
-        </div>
+        </div> */}
+
+
 
         </div>
 
