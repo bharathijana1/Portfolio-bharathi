@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 import PortfolioHome from './Components/PortfolioHome'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './Components/NavBar'
@@ -10,6 +10,7 @@ import PageNotFound from './Components/PageNotFound'
 import ProjectsMain from './Components/ProjectsMain'
 import Skills from './Components/Skills'
 import Academic from './Components/Academic'
+import { Contact_Details } from './Components/Contact_Details'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
         <Route path='/skills' element={<Skills />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/*' element={<PageNotFound />} />
+        <Route path='contactdetails' element={<Contact_Details />} />
       </Routes>
       <Footer />
       
